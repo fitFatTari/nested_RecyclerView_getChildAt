@@ -1,4 +1,4 @@
-# nested_RecyclerView_getChildAt
+# Nested MvxRecyclerView
 This fixes scrolling issues with a RecyclerView inside a ScrollView and also the GetChildAt(position) returning null issue - MvvmCross -> Android 13.0
 Hope this helps other people as it took me weeks of ChatGpting and StackOverflowing, mix all solutions to get here.
 
