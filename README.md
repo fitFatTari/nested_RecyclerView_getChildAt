@@ -2,7 +2,9 @@
 This fixes scrolling issues with a RecyclerView inside a ScrollView and also the GetChildAt(position) returning null issue - MvvmCross -> Android 13.0
 Hope this helps other people as it took me weeks of ChatGpting and StackOverflowing, mix all solutions to get here.
 
-First create a custom control that inherits MvxRecyclerView:
+
+
+***First create a custom control that inherits MvxRecyclerView:***
 
 ```c#
 using Android.Content;
@@ -28,7 +30,9 @@ namespace MyApp.Droid.CustomControls
 }
 ```
 
-Then set your axml designer as below:
+
+
+***Then set your axml designer as below:***
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -145,7 +149,9 @@ Then set your axml designer as below:
 ```
 
 
-Then your view can look like this to retrieve any value from the recycler view:
+
+
+***Then your view can look like this to retrieve any value from the recycler view:***
 
 ```c#
 using Android.App;
