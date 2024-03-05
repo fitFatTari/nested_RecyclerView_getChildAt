@@ -172,7 +172,7 @@ using System.Collections.Generic;
 using System.IO;
 using Xamarin.Controls;
 
-namespace Pirana.Droid.Views
+namespace MyApp.Droid.Views
 {
     [Activity()]
     public class MyView : MvxActivity<MyViewModel>
